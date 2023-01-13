@@ -11,7 +11,7 @@ const Categories = () => {
       }, []);
     
     return (
-        <div className='max-w-[1400px] h-full'>
+        <div className='max-w-[1400px] h-full min-h-[800px]'>
             <h1 className='flex justify-center pt-5 font-mono font-semibold text-4xl tracking-wider text-gray-800'>Total Categories:{categories.length}</h1>
             {
                 categories.map(category=>{

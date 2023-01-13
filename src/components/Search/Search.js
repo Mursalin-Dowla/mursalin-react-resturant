@@ -16,7 +16,7 @@ const Search = () => {
     setInputText(e.target.value);
   };
   return (
-    <div className="min-h-screen">
+    <div className="min-h-[800px]">
       <div>
         <h1 className="flex justify-center m-5 p-5 text-lime-400 text-4xl font-black tracking-widest">Search Our Foods</h1>
         <div  className="flex justify-center m-5 p-5">

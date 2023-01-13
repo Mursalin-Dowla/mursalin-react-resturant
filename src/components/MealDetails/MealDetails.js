@@ -12,7 +12,7 @@ const MealDetails = () => {
       .then((data) => setMeal(data.meals[0]));
   }, [strMeal]);
   return (
-    <div className="min-h-screen">
+    <div className="min-h-[800px]">
       <div className="flex justify-center mt-5">
         <div className="rounded-lg shadow-lg bg-white lg:max-w-lg md:max-w-md max-w-xs">
           <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">

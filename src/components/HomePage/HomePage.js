@@ -11,7 +11,7 @@ const HomePage = () => {
       .then((data) => setMeals(data.meals));
   }, []);
   return (
-    <div  className='max-w-[1400px] h-[1000px]'>
+    <div  className='max-w-[1400px] h-[1000px] min-h-[500px]'>
        <p style={{ backgroundImage: `url(${backgroundImage})`,backgroundRepeat:'no-repeat',backgroundAttachment:'fixed',backgroundSize:'100% 100%'}} 
        className='w-full h-[800px] flex justify-center text-white pt-[10%] font-mono text-3xl' >Limited {meals.length} Meals To 
        <p className="text-lime-400"><br/>Satisfy Your Appetite...</p></p>

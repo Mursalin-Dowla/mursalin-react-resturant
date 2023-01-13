@@ -12,7 +12,7 @@ const MealCookDetails = () => {
       .then((data) => setMeal(data.meals[0]));
   }, [strMeal]);
   return (
-    <div className="min-h-screen">
+    <div className="min-h-[800px]">
       <div className="flex justify-center mt-5">
         <div className="rounded-lg shadow-lg bg-white lg:max-w-4xl md:max-w-md max-w-xs">
             <p className="text-lime-400 m-5 text-4xl">
